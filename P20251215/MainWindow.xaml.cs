@@ -28,5 +28,14 @@ namespace P20251215
             DateTime date = DateTime.Now;
             szulev.Content = $"Születési éved: {date.Year - Convert.ToInt32(eletkor.Text)}";
         }
+
+        public class test
+        {
+            [Test]
+            public void Teszt()
+            {
+                ;
+            }
+        }
     }
 }
