@@ -20,5 +20,11 @@ namespace P20251215
         {
             InitializeComponent();
         }
+
+        private void szamol_Click(object sender, RoutedEventArgs e)
+        {
+            DateTime date = DateTime.Now;
+            szulev.Content = $"Születési éved: {date.Year - Convert.ToInt32(eletkor.Text)}";
+        }
     }
 }
