@@ -8,12 +8,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using NUnit.Framework;
 
 namespace P20251215
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    [Test]
     public partial class MainWindow : Window
     {
         public MainWindow()
